@@ -8,7 +8,7 @@
 <style>
 body{
   margin:0;
-  font-family:Arial, sans-serif;
+  font-family:Arial;
   background:#111;
   color:white;
 }
@@ -17,7 +17,7 @@ body{
 header{
   text-align:center;
   padding:50px 20px;
-  background:linear-gradient(to right,#000,#333);
+  background:linear-gradient(to right,#000,#444);
 }
 
 header h1{
@@ -28,7 +28,7 @@ header p{
   color:#ccc;
 }
 
-/* PRODUCTS */
+/* SECTION */
 section{
   padding:40px 20px;
 }
@@ -38,6 +38,7 @@ h2{
   margin-bottom:20px;
 }
 
+/* PRODUCTS GRID */
 .products{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
@@ -76,7 +77,6 @@ footer{
   text-align:center;
   padding:20px;
   background:#000;
-  margin-top:30px;
 }
 </style>
 </head>
@@ -85,39 +85,73 @@ footer{
 
 <header>
   <h1>Abeni Luxury Wears</h1>
-  <p>Premium fashion for classy women</p>
+  <p>Premium fashion for men and women</p>
 </header>
 
+<!-- FEMALE -->
 <section>
-  <h2>Our Collection</h2>
+  <h2>Female Wears</h2>
 
   <div class="products">
 
     <div class="card">
-      <img src="https://via.placeholder.com/300" alt="Dress">
-      <h3>Elegant Dress</h3>
-      <p class="price">₦25,000</p>
-      <a class="btn" href="https://wa.me/2348164197961?text=Hello%20I%20want%20to%20order%20the%20Elegant%20Dress" target="_blank">
-        Buy on WhatsApp
-      </a>
+      <img src="https://via.placeholder.com/300" alt="">
+      <h3>Elegant Gown</h3>
+      <p class="price">₦30,000</p>
+      <a class="btn" href="https://wa.me/2348164197961?text=I%20want%20Elegant%20Gown">Buy</a>
     </div>
 
     <div class="card">
-      <img src="https://via.placeholder.com/300" alt="Bag">
+      <img src="https://via.placeholder.com/300" alt="">
+      <h3>Casual Dress</h3>
+      <p class="price">₦20,000</p>
+      <a class="btn" href="https://wa.me/2348164197961?text=I%20want%20Casual%20Dress">Buy</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- MALE -->
+<section>
+  <h2>Male Wears</h2>
+
+  <div class="products">
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300" alt="">
+      <h3>Men Native</h3>
+      <p class="price">₦35,000</p>
+      <a class="btn" href="https://wa.me/2348164197961?text=I%20want%20Men%20Native">Buy</a>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300" alt="">
+      <h3>Casual Shirt</h3>
+      <p class="price">₦15,000</p>
+      <a class="btn" href="https://wa.me/2348164197961?text=I%20want%20Casual%20Shirt">Buy</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- BAGS -->
+<section>
+  <h2>Bags Collection</h2>
+
+  <div class="products">
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300" alt="">
       <h3>Luxury Handbag</h3>
       <p class="price">₦18,000</p>
-      <a class="btn" href="https://wa.me/2348164197961?text=Hello%20I%20want%20to%20order%20the%20Luxury%20Handbag" target="_blank">
-        Buy on WhatsApp
-      </a>
+      <a class="btn" href="https://wa.me/2348164197961?text=I%20want%20Luxury%20Handbag">Buy</a>
     </div>
 
     <div class="card">
-      <img src="https://via.placeholder.com/300" alt="Shoes">
-      <h3>Classic Heels</h3>
-      <p class="price">₦20,000</p>
-      <a class="btn" href="https://wa.me/2348164197961?text=Hello%20I%20want%20to%20order%20the%20Classic%20Heels" target="_blank">
-        Buy on WhatsApp
-      </a>
+      <img src="https://via.placeholder.com/300" alt="">
+      <h3>Travel Bag</h3>
+      <p class="price">₦25,000</p>
+      <a class="btn" href="https://wa.me/2348164197961?text=I%20want%20Travel%20Bag">Buy</a>
     </div>
 
   </div>
@@ -126,12 +160,12 @@ footer{
 <section>
   <h2>About Us</h2>
   <p style="text-align:center;">
-    Abeni Luxury Wears offers premium quality fashion for women and man who love elegance and style. We deliver nationwide.
+    Abeni Luxury Wears offers premium fashion for both men and women. We deliver quality and style across Nigeria.
   </p>
 </section>
 
 <footer>
-  <p>Contact us on WhatsApp: 08128599147</p>
+  <p>Order on WhatsApp: 08164197961</p>
   <p>© 2026 Abeni Luxury Wears</p>
 </footer>
 
